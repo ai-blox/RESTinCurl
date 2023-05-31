@@ -7,7 +7,7 @@ include(ExternalProject)
 ExternalProject_Add(
     externalLest
     PREFIX "${EXTERNAL_PROJECTS_PREFIX}"
-    GIT_REPOSITORY "https://github.com/martinmoene/lest.git"
+    GIT_REPOSITORY "https://github.com/ai-blox/lest.git"
     GIT_TAG "master"
     CONFIGURE_COMMAND ""
     BUILD_COMMAND ""
@@ -19,7 +19,7 @@ ExternalProject_Add(
 ExternalProject_Add(
     externalJson
     PREFIX "${EXTERNAL_PROJECTS_PREFIX}"
-    GIT_REPOSITORY "https://github.com/nlohmann/json.git"
+    GIT_REPOSITORY "https://github.com/ai-blox/json.git"
     GIT_TAG "master"
     CONFIGURE_COMMAND ""
     BUILD_COMMAND ""
@@ -31,7 +31,7 @@ ExternalProject_Add(
 ExternalProject_Add(
     externalLog
     PREFIX "${EXTERNAL_PROJECTS_PREFIX}"
-    GIT_REPOSITORY "https://github.com/jgaa/logfault.git"
+    GIT_REPOSITORY "https://github.com/ai-blox/logfault.git"
     GIT_TAG "master"
     CONFIGURE_COMMAND ""
     BUILD_COMMAND ""
